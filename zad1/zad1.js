@@ -1,6 +1,6 @@
 let cities = ['Warsaw', 'Berlin', 'Paris', 'London', 'New York', 'Tokio', 'Moscow'];
 const doc = document.body;
-let ulElement = document.createElement('ul');
+let ulElement = document.createElement('ol');
 cities.forEach(function (element){
     let newLi = document.createElement('li');
     newLi.setAttribute('class', 'city')
